@@ -1,0 +1,37 @@
+{
+  "name": "goods-make",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --open --port 3004 --hot",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "axios": "^0.18.0",
+    "babel-plugin-import": "^1.11.0",
+    "core-js": "^2.6.5",
+    "lib-flexible": "^0.3.2",
+    "qs": "^6.7.0",
+    "vant": "^1.6.17",
+    "vue": "^2.6.10",
+    "vue-axios": "^2.1.4",
+    "vue-lazyload": "^1.2.6",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1",
+    "weixin-js-sdk": "^1.4.0-test"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.7.0",
+    "@vue/cli-plugin-eslint": "^3.7.0",
+    "@vue/cli-service": "^3.7.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "postcss-pxtorem": "^4.0.1",
+    "sass": "^1.18.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.21"
+  }
+}

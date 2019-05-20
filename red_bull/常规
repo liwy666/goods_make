@@ -1,0 +1,93 @@
+//v-for
+v-for="(item) in head_swipe" :key="item.img_url"
+
+//forEach循环
+this.msg.goods_gallery.forEach((item，i) => {
+    result.push(item.img_url)
+});
+//属性转数组
+Object.values(new_goods_info.attr).forEach
+
+Object.assign({}, this.getContent)
+//深拷贝
+let data =  JSON.parse(JSON.stringify(state.carts));
+//computed变量
+computed:{
+    head_imgPreview:{
+      get:function () {
+          var result = [];
+          if(this.msg !==""){
+              this.msg.goods_gallery.forEach(item => {
+                  result.push(item.img_url)
+              });
+          }
+          return result;
+      }
+    }
+},
+
+//引入子组件
+import myEvaluateList from  './sub/my-evaluate-list'
+//挂载子组件
+components: {
+    myEvaluateInfo,//评论子组件
+},
+//引用父组件值
+props:["goods_id"],
+
+
+
+//get请求
+get(){
+     let toast1 = this.$toast.loading({
+                          mask: true,
+                          message: '领取中...',
+                          duration:0
+                      });
+    this.$fetch('',{})
+        .then((msg)=>{
+               toast1.clear();
+      })
+}
+//post
+   let toast1 = this.$toast.loading({
+                        mask: true,
+                        message: '领取中...',
+                        duration:0
+                    });
+    this.$post('',{user_token:this.$store.getters.getUserToken})
+        .then((msg)=>{
+              toast1.clear();
+    })
+
+//合并数组
+const middeleArray = bigArray.reduce((a,b) => {
+            return a.concat(b);
+});
+
+
+//VUEX赋值
+this.$store.commit("setGoodsInfo",msg);
+//VUEX取值
+this.$store.getters.getLoginType
+
+v-if="JSON.stringify(this.$store.state.user_info) !== '{}'"
+
+ /**
+ * 数组排序
+ * @param property
+ * @returns {function(*, *): number}
+ */
+compare(property) {
+    return function (a, b) {
+        let value1 = a[property];
+        let value2 = b[property];
+        return value1 - value2;
+    }
+},
+
+middeleArray.sort((this.compare('coupon_id')));
+
+ order_list.forEach(item => {
+                        console.log(item.order_time_new);
+                    });
