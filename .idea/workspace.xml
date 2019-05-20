@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea3a3af1-3f7a-4130-b869-48182b0e6910" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/red_bull_hw/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/red_bull_hw/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/red_bull_hw/src/components/Goods/sub/my-goods-sku.vue" beforeDir="false" afterPath="$PROJECT_DIR$/red_bull_hw/src/components/Goods/sub/my-goods-sku.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/red_bull_hw/src/components/Index/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/red_bull_hw/src/components/Index/Index.vue" afterDir="false" />
-    </list>
+    <list default="true" id="ea3a3af1-3f7a-4130-b869-48182b0e6910" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -71,10 +67,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="86" />
+    <option name="y" value="52" />
+    <option name="width" value="1001" />
+    <option name="height" value="996" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -128,6 +124,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -159,15 +156,15 @@
       <updated>1558332648042</updated>
       <workItem from="1558332649122" duration="200000" />
       <workItem from="1558342975931" duration="4000" />
+      <workItem from="1558343264051" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204000" />
+    <option name="totallyTimeSpent" value="803000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
